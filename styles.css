@@ -34,8 +34,8 @@
   }
   
   .download {
-    margin-top: -832px;
-    margin-left: 736px;
+    margin-top: -810px;
+    margin-left: 836px;
     display: block;
     overflow: visible;
   	position: absolute;
@@ -52,7 +52,7 @@
   
   .download-qr {
     margin-top: -832px;
-    margin-left: -836px;
+    margin-left: -900px;
     display: block;
     overflow: visible;
   	position: absolute;
@@ -61,11 +61,9 @@
     transition: 0.35s;
   }
   
-  .dowload-qr img {
-        border-radius: 50px;
-        
-    overflow: hidden;
-        }
+  .download-qr img {
+    border-radius: 8px;
+  }
     
   .hero-iphone {
     height: 638px;
