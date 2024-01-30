@@ -443,15 +443,8 @@
     .review b {
       color: white;
     }
+  }
 
-  .slide-card, .slide-card:hover {
-    background-color:rgba(0,0,0,.6);
-    color: white;
-  }
-    
-  )
-  
-  }
   
   /* Download button swap */
   @media screen and (min-width: 1053px) {     
@@ -472,8 +465,8 @@
       margin-top: 40px;
     }
     .download-button {
-    	width: 155.2px;
-    	height: 89.6px;
+    	width: 200px;
+    	height: auto;
     }
   }
   
@@ -484,6 +477,7 @@
       width: 100vw;
       margin-top: 0;
     }
+
   }
     
   /* Mobile Lanscape */
@@ -575,10 +569,13 @@
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
     }   
     
-    
     .video-card video {
       border-radius: 0;
     } 
+    
+   .video-card {
+      margin-top: 56px;
+    }
 
     .flourish-logo {
       margin-top: 20px;
@@ -589,6 +586,9 @@
     .hero-iphone {
     	margin: 16px 0px 56px 0px;
     }    
+    
+    footer {
+      margin-top: 48px;
   } 
 
   /* Mobile small */
