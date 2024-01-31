@@ -611,8 +611,13 @@ div#leftwing{
       padding: 24px;
       margin: 10px 10px 18px 10px;
       max-width: 280px;
-      min-height: 216px;
+      min-height: 300px;
       box-shadow:0 4px 8px rgba(0, 0, 0, 0.06);
+    }
+    
+     .video-card {
+      margin-left: 32px;
+      margin-right: 32px;
     }
     
     .card h1  {
@@ -682,6 +687,8 @@ div#leftwing{
     
    .video-card {
       margin-top: 56px;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .flourish-logo {
