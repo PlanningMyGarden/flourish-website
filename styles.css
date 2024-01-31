@@ -527,10 +527,6 @@
     h2, .tagline { font-size: 27px; }
 		.hero {min-height: 100vh;}
 		
-    .flourish-logo {
-      filter: drop-shadow( 0 0 16px rgba(0, 0, 0, 1));}
-    }
-
     .cards {
       margin-left: 24px;
       margin-right: 24px;
@@ -566,6 +562,7 @@
       margin-top: 20px;
       width: 300px;
       height: 123.4px;
+      filter: drop-shadow( 0 0 16px rgba(0, 0, 0, 1));}
     }
     
     .hero-iphone {
