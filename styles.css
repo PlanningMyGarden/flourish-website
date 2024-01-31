@@ -1,3 +1,4 @@
+
   html, body {
     margin: 0;
     padding-bottom: 32px;
@@ -20,6 +21,12 @@
     margin-bottom: -40px;
   }
   
+  
+  header {
+    overflow: hidden;
+    }
+    
+    
   .hero {
     z-index: -10;
     position: absolute;
@@ -350,11 +357,11 @@
   
 .butterfly {
     margin-top: -1610px;
-    margin-left: 836px;
+    margin-left: 400px;
     display: block;
     overflow: visible;
   	position: absolute;
-  	width: 194px;
+  	width: 0;
   	height: 0;
     transition: 0.35s;  
     -webkit-perspective: 600px;
@@ -565,7 +572,7 @@ div#leftwing{
     .hero img {
       height: 160vh;
       width: 100vw;
-      margin-top: 0;
+      margin-top: -22vh;
     }
 
   }
@@ -641,8 +648,8 @@ div#leftwing{
     }
     
     .butterfly {
-      margin-top: -1200px;
-      margin-left: 100px;
+      margin-top: -1600px;
+      margin-left: -10px;
     }
     
     .butterfly-footer {
