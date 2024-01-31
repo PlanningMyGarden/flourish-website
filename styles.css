@@ -515,7 +515,7 @@
     .hero img {
       height: 112vh;
       width: 100vw;
-      margin-top: -220px;
+      margin-top: -20vh;
     }
     
     .buttons { margin-left: 24px; margin-right: 24px;}
@@ -526,6 +526,10 @@
     .vignette { font-size: 19px; }
     h2, .tagline { font-size: 27px; }
 		.hero {min-height: 100vh;}
+		
+    .flourish-logo {
+      filter: drop-shadow( 0 0 16px rgba(0, 0, 0, 1));}
+    }
 
     .cards {
       margin-left: 24px;
