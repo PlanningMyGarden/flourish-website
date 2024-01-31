@@ -33,7 +33,7 @@
     position: absolute;
     height: 200vh;
     width: 100vw;
-    margin-top: -48vh;
+    margin-top: -36.5vh;
     overflow: visible;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -468,7 +468,7 @@
       .hero img {
       height: 150vh;
       width: 100vw;
-      margin-top: -24vh;
+      margin-top: -22vh;
     } 
   }
     	  
