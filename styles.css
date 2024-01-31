@@ -346,6 +346,123 @@
   
 
   
+  /* Butterfly */
+  
+.butterfly {
+    margin-top: -1610px;
+    margin-left: 836px;
+    display: block;
+    overflow: visible;
+  	position: absolute;
+  	width: 194px;
+  	height: 0;
+    transition: 0.35s;  
+    -webkit-perspective: 600px;
+    -webkit-perspective-origin: 0% 0%;
+    }
+    
+.butterfly-footer {
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+    overflow: visible;
+  	position: absolute;
+  	width: 0;
+  	height: 0;
+    transition: 0.35s;  
+    -webkit-perspective: 1200px;
+    -webkit-perspective-origin: 0% 0%;
+    }
+
+div#butterfly{
+    position absolute;
+    -webkit-transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5);
+    -webkit-transform-origin: 80% 50%;
+    left:0px;
+    top:0px;
+    width: 366px;
+    height: 208px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation-name: butterflyani;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes butterflyani {
+    from {
+        -webkit-transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5) translate3d(-300px, 350px, 0px);
+    }
+    25% {
+        -webkit-transform: rotate3d(0, 1, 0, -90deg) scale3d(0.5, 0.5, 0.5) translate3d(-300px, 350px, 0px);
+    }
+    50% {
+        -webkit-transform: rotate3d(0, 1, 0, -180deg) scale3d(0.5, 0.5, 0.5) translate3d(-300px, 350px, 0px);
+    }
+    75% {
+        -webkit-transform: rotate3d(0, 1, 0, -270deg) scale3d(0.5, 0.5, 0.5) translate3d(-300px, 350px, 0px);
+    }
+    to{
+        -webkit-transform: rotate3d(0, 1, 0, -360deg) scale3d(0.5, 0.5, 0.5) translate3d(-300px, 350px, 0px);
+    }
+}
+
+div#rightwing{
+    -webkit-transform: rotateX(90deg) translate3d(-178px, 0px, 0px) rotate3d(0, 1, 0, 180deg) ;
+    -webkit-transform-origin: top right;
+    position: absolute;
+    left:178px;
+    top:0px;
+    width: 178px;
+    height: 208px;
+    background-image: url(gfx/wing.png);
+    background-repeat:no-repeat;
+    -webkit-animation-name: rightwingani;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rightwingani {
+    from {
+        -webkit-transform:rotateX(90deg) translate3d(-178px, 0px, 0px) rotate3d(0, 1, 0, 180deg);
+    }
+    50% {
+        -webkit-transform:rotateX(90deg) translate3d(-178px, 0px, 0px) rotate3d(0, 1, 0, 100deg);
+    }
+    to{
+        -webkit-transform:rotateX(90deg) translate3d(-178px, 0px, 0px) rotate3d(0, 1, 0, 180deg);
+    }
+}
+
+div#leftwing{
+    -webkit-transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg) ;
+    position: absolute;
+    -webkit-transform-origin: top right;
+    left:0px;
+    top:0px;
+    width: 178px;
+    height: 208px;
+    background-image: url(gfx/wing.png);
+    background-repeat: no-repeat;
+    -webkit-animation-name: leftwingani;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes leftwingani {
+    from {
+        -webkit-transform:rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+    }
+    50% {
+        -webkit-transform:rotateX(90deg) rotate3d(0, 1, 0, 80deg);
+    }
+    to{
+        -webkit-transform:rotateX(90deg) rotate3d(0, 1, 0, 00deg);
+    }
+}
+  
  
   
   /* Dark Mode */
@@ -518,6 +635,15 @@
       margin-top: -20vh;
     }
     
+    .butterfly {
+      margin-top: -1200px;
+      margin-left: 100px;
+    }
+    
+    .butterfly-footer {
+      display: none;
+    }
+
     .buttons { margin-left: 24px; margin-right: 24px;}
 		.button { height: 48px; line-height: 48px; width: 100%; border-radius: 24px; font-size: 18px;}
     .button-primary { margin-top: 24px;}
@@ -591,9 +717,13 @@
     }  
   }
   
-  /* Desktop */
-  @media screen and (min-width: 1538px) {
-    .vignette { font-size: 40px; }
-    h2 { font-size: 64px; }
-  }
+
+  
+  
+  
+  
+  
+  
+  
+  
   
