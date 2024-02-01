@@ -47,7 +47,6 @@
   }
   
   .download {
-    margin-top: -810px;
     margin-left: 836px;
     display: block;
     overflow: visible;
@@ -64,7 +63,7 @@
   }
   
   .download-qr {
-    margin-top: -832px;
+    margin-top: -20px;
     margin-left: -900px;
     display: block;
     overflow: visible;
