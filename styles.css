@@ -367,18 +367,6 @@
     -webkit-perspective-origin: 0% 0%;
     }
     
-.butterfly-footer {
-    margin-top: 0;
-    margin-left: 0;
-    display: block;
-    overflow: visible;
-  	position: absolute;
-  	width: 0;
-  	height: 0;
-    transition: 0.35s;  
-    -webkit-perspective: 1200px;
-    -webkit-perspective-origin: 0% 0%;
-    }
 
 div#butterfly{
     position absolute;
