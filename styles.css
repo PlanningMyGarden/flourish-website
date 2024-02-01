@@ -355,7 +355,7 @@
   /* Butterfly */
   
 .butterfly {
-    margin-top: -1610px;
+    margin-top: -1010px;
     margin-left: 400px;
     display: block;
     overflow: visible;
@@ -647,7 +647,7 @@ div#leftwing{
     }
     
     .butterfly {
-      margin-top: -1600px;
+      margin-top: -1200px;
       margin-left: -10px;
     }
     
