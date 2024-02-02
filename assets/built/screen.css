@@ -3,6 +3,83 @@
   margin-right: auto;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  width: 100%;
+  padding: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.button {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+  margin: 12px;
+ padding-left: 32px;
+  padding-right: 32px;
+}
+
+.button-primary {
+  color: white;
+  background-color: black;
+}
+
+.button-secondary {
+  color: black;
+  background-color: white;
+}
+
+.button-primary:hover {
+  background-color: 
+  box-shadow:0 8px 12px rgba(0, 0, 0, 0.32); 
+}
+
+.button-secondary:hover {
+  box-shadow:0 8px 12px rgba(0, 0, 0, 0.16); 
+}
+
+
+
+  
+.copyright-notice {
+  font: -apple-system-footnote;
+  font-size: 11px;
+  text-align: center;
+  color: #7f7f7f;
+  padding-bottom: 8px;
+  overflow: hidden; 
+  background-color: white;
+  margin-top: 60px;
+  margin-left: 16px;
+  margin-right: 16px;  
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+
+
+
 
 *,:after,:before{
     box-sizing:border-box
@@ -89,9 +166,7 @@ a{
     color:var(--color-darker-gray);
     text-decoration:none
 }
-a:hover{
-    opacity:.8
-}
+
 :is(h1,h2,h3,h4,h5,h6){
     color:var(--color-darker-gray);
     letter-spacing:-.01em;
@@ -2022,5 +2097,5 @@ body{
 
 
   A:link, A:visited, A:active, A:hover, A:focus {
-  color: blue;
+  text-decoration: none;
 }
