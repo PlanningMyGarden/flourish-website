@@ -1,3 +1,9 @@
+.flourish-logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 *,:after,:before{
     box-sizing:border-box
 }
@@ -2013,3 +2019,8 @@ body{
     --font-multiplier:1.15
 }
 /*# sourceMappingURL=screen.css.map */
+
+
+  A:link, A:visited, A:active, A:hover, A:focus {
+  color: blue;
+}
