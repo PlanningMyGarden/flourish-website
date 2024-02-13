@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="49px" viewBox="0 0 1440 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>bend</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="bend" fill="#F5F1DF" fill-rule="nonzero">
-            <path d="M720,49 C479.668308,49 239.668308,32.6666667 0,0 L1440,0 C1200.33169,32.6666667 960.331692,49 720,49 Z" id="Combined-Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg height="49" viewBox="0 0 1440 49" width="1440" xmlns="http://www.w3.org/2000/svg"><path d="m720 49c-240.331692 0-480.331692-16.3333333-720-49h1440c-239.66831 32.6666667-479.668308 49-720 49z" fill="#f5f1df"/></svg>
