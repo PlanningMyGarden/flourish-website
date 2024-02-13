@@ -117,7 +117,7 @@
   .flourish-logo {
     margin-top: 48px;
     transition: 0.35s;
-    filter: drop-shadow( 0 0 32px rgba(0, 0, 0, 1));}
+    filter: drop-shadow( 0 0 32px rgba(0, 0, 0, 1));
   }
   
   .vignette {
@@ -369,7 +369,7 @@
     
 
 div#butterfly{
-    position absolute;
+    position: absolute;
     -webkit-transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5);
     -webkit-transform-origin: 80% 50%;
     left:0px;
