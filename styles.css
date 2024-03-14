@@ -12,7 +12,7 @@
   A:link {text-decoration: none; color: black; }
   A:visited {text-decoration: none; color: black; }
   A:active {text-decoration: none; color: black; }
-  A:hover {text-decoration: none; color: black; }
+  A:hover {text-decoration: none; color: rgba(0, 0, 0, 0.60); }
   A:focus {outline: 0;}
   
   body {
@@ -202,6 +202,10 @@
   .blog-card h2 {
       color: black;
   }   
+    
+  .blog-card:hover {
+    opacity: 0.7;
+  }
      
    .video-card {
     margin: auto;
@@ -470,7 +474,7 @@ div#leftwing{
     A:link {text-decoration: none; color: white; }
     A:visited {text-decoration: none; color: white; }
     A:active {text-decoration: none; color: white; }
-    A:hover {text-decoration: none; color: white; }
+    A:hover {text-decoration: none; color: rgba(255, 255, 255, 0.70); }
     A:focus {outline: 0;}  
 
     .button-primary:link {color: black;}
