@@ -9,12 +9,12 @@
     text-align: center; 
   }
   
-  A:link {text-decoration: none; }
-  A:visited {text-decoration: none; }
-  A:active {text-decoration: none; }
-  A:hover {text-decoration: none; }
+  A:link {text-decoration: none; color: black; }
+  A:visited {text-decoration: none; color: black; }
+  A:active {text-decoration: none; color: black; }
+  A:hover {text-decoration: none; color: black; }
   A:focus {outline: 0;}
-
+  
   body {
     background-color: #F5F1DF;
     padding: 0;
@@ -256,6 +256,12 @@
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.16); 
   }
   
+  .button-primary:link {color: white;}
+  .button-primary:visited {color: white;}
+  .button-primary:active {color: white;}
+  .button-primary:hover {color: white;}
+  .button-primary:focus {color: white;}
+  
   .button-secondary {
     margin-top: 16px;
     color: black;
@@ -461,6 +467,18 @@ div#leftwing{
   
   /* Dark Mode */
   @media (prefers-color-scheme: dark) {
+    A:link {text-decoration: none; color: white; }
+    A:visited {text-decoration: none; color: white; }
+    A:active {text-decoration: none; color: white; }
+    A:hover {text-decoration: none; color: white; }
+    A:focus {outline: 0;}  
+
+    .button-primary:link {color: black;}
+    .button-primary:visited {color: black;}
+    .button-primary:active {color: black;}
+    .button-primary:hover {color: black;}
+    .button-primary:focus {color: black;}
+  
     .blog-card h2 {
       color: white;
     }   
